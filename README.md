@@ -1,8 +1,8 @@
-# Conversor Hex To WIF
-Converte a chave privada em hexadecimal para o formato WIF.
+# Convert Hex To WIF
+Convert hexadecimal private key to wif.
 
-# Como Usar  
-Supondo que a chave privada hexadecimal seja ***"0x268329e2e8fb78d0a"***, basta remover o 0x e colocar a frente do parametro -key como mostra o código abaixo.
+# Usage  
+exemple of hexadecimal private key ***"0x268329e2e8fb78d0a"***, remove 0x and paste after the -key parameter.
 
 ```
 go run main.go -key 268329e2e8fb78d0a
